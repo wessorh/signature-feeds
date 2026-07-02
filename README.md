@@ -28,10 +28,7 @@ with  family labels and  categories.
 
 | Tool | Repository | Purpose |
 |------|------------|---------|
-| `source2yara.py` | [tools](https://github.com/wessorh/tools) | Generate YARA rules from ClickHouse source |
 | `yar2hlo.sh` | [tools](https://github.com/wessorh/tools) | Convert YARA rules to ClamAV `.hlo` format |
-| `hash2yara.py` | [tools](https://github.com/wessorh/tools) | SHA256 hashes → YARA rules |
-| `signature-feeds.py` | [tools](https://github.com/wessorh/tools) | Redis uploads → YARA/ClamAV/Zeek signature files |
 
 ## Repositories
 
@@ -39,5 +36,3 @@ with  family labels and  categories.
 |------|-----|-------------|
 | signature-feeds | [github.com/wessorh/signature-feeds](https://github.com/wessorh/signature-feeds) | Daily signature feeds |
 | clamav-holloman3 | [github.com/wessorh/clamav-holloman3](https://github.com/wessorh/clamav-holloman3) | ClamAV + Zeek integration |
-| yara-be | [github.com/wessorh/yara-be](https://github.com/wessorh/yara-be) | YARA engine, cluster analysis, MIH search |
-| tools | [github.com/wessorh/tools](https://github.com/wessorh/tools) | Signature generation toolchain |
