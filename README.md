@@ -13,13 +13,6 @@ with  family labels and  categories.
 | `clamav/feed-YYYYMMDD.hlo` | ClamAV `.hlo` signatures | `clamscan -d feed-20260630.hlo malware.exe` |
 | `zeek/feed-YYYYMMDD.intel` | Zeek Intel feed | `redef Intel::read_files += {"feed-20260630.intel"};` |
 
-## Pipeline
-
-```
-Redis tg-uploads → SHA256 → SHA1 → h128 fingerprint → @cluster_id tags
-                                                           ├── vt (preferred)
-                                                           └── tg:cat (fallback)
-```
 
 ## Papers
 
