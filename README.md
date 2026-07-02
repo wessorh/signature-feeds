@@ -3,7 +3,7 @@
 Daily Holloman fingerprint signature feeds for YARA, ClamAV, and Zeek.
 
 Generated from Redis upload pipeline — 30–77K files/day, 88–100% tagged
-with VirusTotal family labels and ThreatGrid categories.
+with  family labels and  categories.
 
 ## Feeds
 
